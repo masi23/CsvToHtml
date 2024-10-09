@@ -12,6 +12,32 @@ This project is a **C++ console application** that reads data from a CSV file, p
 ## Example
 
 The program reads from a CSV file like the one below:
+Name,Age,Location John Doe,29,New York Jane Smith,34,Los Angeles
+
+## Installation
+Clone the repository:
+
+git clone https://github.com/masi23/CsvToHtml.git
+Open the project:
+
+Open Visual Studio, and in the top menu, select File -> Open -> Project/Solution.
+Navigate to the folder where you cloned the repository and open the .sln file.
+Run the project:
+
+Press F5 to compile and run the project.
+
+## Usage
+Place your CSV file:
+
+Before running the application, place your CSV file in the specified directory.
+
+Update the file path in the main() function to point to your CSV file. Example:
+
+ifstream file("path/to/your/customers.csv");
+Run the application:
+
+The application will generate an HTML file (e.g., index.html) in the output directory.
+Open the generated HTML file in a browser to view and edit the table.
 
 ## CSV Format Requirements
 - Each row should contain data separated by commas (,).
