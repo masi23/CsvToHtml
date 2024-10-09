@@ -45,7 +45,7 @@ Open the generated HTML file in a browser to view and edit the table.
 - Your CSV file can contain (") characters, but please try to not use special characters in order to avoid unexpected behavior
 
   Example of valid CSV format (data generated randomly) :
-  1,dE014d010c7ab0c,Andrew,Goodman,Stewart-Flynn,Rowlandberg,Macao,846-790-4623x4715,(422)787-2331x71127,marieyates@gomez-spencer.info,2021-07-26,http://www.shea.biz/
+  '1,dE014d010c7ab0c,Andrew,Goodman,Stewart-Flynn,Rowlandberg,Macao,846-790-4623x4715,(422)787-2331x71127,marieyates@gomez-spencer.info,2021-07-26,http://www.shea.biz/'
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
